@@ -1,0 +1,59 @@
+name: Track flight prices
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # every day at 04:15 UTC (06:15/07:15 Israel time)
+  workflow_dispatch: {}      # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: track
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Collect prices and write report
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: python -m flighttracker run
+
+      - name: Save history
+        run: |
+          git config user.name "flight-tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet || git commit -m "Prices $(date -u +%F)"
+          git push
+
+      - name: Open an issue when it's a good time to buy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s reports/alerts.md ]; then
+            title="Buy signal $(date -u +%F)"
+            body="$(cat reports/alerts.md)
+
+          Full report: ${{ github.server_url }}/${{ github.repository }}/blob/main/reports/README.md"
+            gh label create buy-signal --color 2da44e --force >/dev/null 2>&1 || true
+            # one open issue at a time: comment on it if it exists, otherwise open one
+            num=$(gh issue list --label buy-signal --state open --json number -q '.[0].number')
+            if [ -n "$num" ]; then
+              gh issue comment "$num" --body "$body"
+            else
+              gh issue create --title "$title" --label buy-signal --body "$body"
+            fi
+          fi

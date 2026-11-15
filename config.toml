@@ -1,0 +1,46 @@
+# Flight tracker configuration.
+# Add a destination by adding another [[destinations]] block. Nothing else needs to change.
+
+[search]
+origin = "TLV"            # Ben Gurion
+currency = "ILS"          # prices are stored in this currency
+market = "il"             # Google "gl" country (point of sale). See RESEARCH.md on VPN/market effects.
+language = "en"
+adults = 1
+travel_class = "economy"  # economy | premium_economy | business | first
+max_stops = 1             # 0 = nonstop only, 1 = up to one stop, 2 = up to two stops, -1 = any
+
+# Rolling "watch" trips: on every run, for each destination, check the first
+# `depart_weekday` on/after today + N weeks, staying `nights` nights.
+weeks_ahead = [5, 12]
+depart_weekday = "thu"
+nights = 4
+
+# SerpApi free plan = 250 searches/month. The collector stops before going over this.
+monthly_search_budget = 240
+
+[advisor]
+buy_deadline_days = 14    # after this point prices almost always rise; always buy
+min_saving_pct = 5        # a "cheaper price later" only counts if it's at least this much cheaper
+simulations = 4000
+
+[[destinations]]
+code = "AMS"
+name = "Amsterdam"
+
+[[destinations]]
+code = "BCN"
+name = "Barcelona"
+
+[[destinations]]
+code = "FCO"
+name = "Rome"
+
+# Fixed trips you actually plan to take. These are checked on every run in
+# addition to the rolling watch trips. Uncomment and edit:
+#
+# [[trips]]
+# destination = "BCN"
+# depart = "2027-04-25"
+# return = "2027-04-30"
+# label = "Barcelona after Pesach"
