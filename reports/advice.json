@@ -1,0 +1,151 @@
+[
+  {
+    "trip": "TLV-AMS-2026-12-24-2026-12-28",
+    "destination": "Amsterdam",
+    "depart": "2026-12-24",
+    "return": "2026-12-28",
+    "price": 1152.0,
+    "currency": "ILS",
+    "verdict": "WATCH",
+    "confidence": 50,
+    "p_cheaper_later": 0.503,
+    "target_price": 1094,
+    "best_day": "2026-11-16",
+    "reasons": [
+      "50% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Lower than 40% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily."
+    ]
+  },
+  {
+    "trip": "TLV-AMS-2027-02-11-2027-02-15",
+    "destination": "Amsterdam",
+    "depart": "2027-02-11",
+    "return": "2027-02-15",
+    "price": 1051.0,
+    "currency": "ILS",
+    "verdict": "BUY",
+    "confidence": 61,
+    "p_cheaper_later": 0.3875,
+    "target_price": 998,
+    "best_day": "2026-11-16",
+    "reasons": [
+      "39% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Lower than 3% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Trend over the last 3 weeks: +7.4% per week."
+    ]
+  },
+  {
+    "trip": "TLV-BCN-2026-12-24-2026-12-28",
+    "destination": "Barcelona",
+    "depart": "2026-12-24",
+    "return": "2026-12-28",
+    "price": 959.0,
+    "currency": "ILS",
+    "verdict": "BUY",
+    "confidence": 78,
+    "p_cheaper_later": 0.374,
+    "target_price": 911,
+    "best_day": "2026-11-16",
+    "reasons": [
+      "37% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Price is at or below Google's typical low (1,050).",
+      "Lower than 94% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.",
+      "Trend over the last 3 weeks: -3.6% per week."
+    ]
+  },
+  {
+    "trip": "TLV-BCN-2027-02-11-2027-02-15",
+    "destination": "Barcelona",
+    "depart": "2027-02-11",
+    "return": "2027-02-15",
+    "price": 1064.0,
+    "currency": "ILS",
+    "verdict": "WATCH",
+    "confidence": 52,
+    "p_cheaper_later": 0.484,
+    "target_price": 1011,
+    "best_day": "2026-12-24",
+    "reasons": [
+      "48% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Lower than 37% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Expected cheapest around 2026-12-24; buy right away if it drops to 1,011 or less."
+    ]
+  },
+  {
+    "trip": "TLV-BRU-2026-12-24-2026-12-28",
+    "destination": "Brussels",
+    "depart": "2026-12-24",
+    "return": "2026-12-28",
+    "price": 1252.0,
+    "currency": "ILS",
+    "verdict": "WAIT",
+    "confidence": 60,
+    "p_cheaper_later": 0.60325,
+    "target_price": 1189,
+    "best_day": "2026-11-17",
+    "reasons": [
+      "60% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Lower than 3% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.",
+      "Trend over the last 3 weeks: +4.7% per week.",
+      "Expected cheapest around 2026-11-17; buy right away if it drops to 1,189 or less."
+    ]
+  },
+  {
+    "trip": "TLV-BRU-2027-02-11-2027-02-15",
+    "destination": "Brussels",
+    "depart": "2027-02-11",
+    "return": "2027-02-15",
+    "price": 869.0,
+    "currency": "ILS",
+    "verdict": "BUY",
+    "confidence": 78,
+    "p_cheaper_later": 0.3685,
+    "target_price": 826,
+    "best_day": "2026-11-16",
+    "reasons": [
+      "37% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Price is at or below Google's typical low (890).",
+      "Lower than 6% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Trend over the last 3 weeks: +9.5% per week."
+    ]
+  },
+  {
+    "trip": "TLV-FCO-2026-12-24-2026-12-28",
+    "destination": "Rome",
+    "depart": "2026-12-24",
+    "return": "2026-12-28",
+    "price": 448.0,
+    "currency": "ILS",
+    "verdict": "BUY",
+    "confidence": 96,
+    "p_cheaper_later": 0.19375,
+    "target_price": 426,
+    "best_day": "2026-11-16",
+    "reasons": [
+      "19% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Price is at or below Google's typical low (540).",
+      "Lower than 6% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily."
+    ]
+  },
+  {
+    "trip": "TLV-FCO-2027-02-11-2027-02-15",
+    "destination": "Rome",
+    "depart": "2027-02-11",
+    "return": "2027-02-15",
+    "price": 398.0,
+    "currency": "ILS",
+    "verdict": "BUY",
+    "confidence": 100,
+    "p_cheaper_later": 0.00375,
+    "target_price": 378,
+    "best_day": "2026-11-17",
+    "reasons": [
+      "0% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Lower than 5% of the 63 daily prices seen for this trip in the last 90 days."
+    ]
+  }
+]
