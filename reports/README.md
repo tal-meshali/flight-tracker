@@ -10,8 +10,8 @@ Updated 2026-11-16 06:40 UTC.
 | TLV → Barcelona (BCN) | Thu 11 Feb → Mon 15 Feb 2027 | 87 | 1,064 ILS | 880–1,100 | 🟡 WATCH | Low (52%) | 48% |
 | TLV → Brussels (BRU) | Thu 24 Dec → Mon 28 Dec 2026 | 38 | 1,252 ILS | 1,150–2,000 | 🔵 WAIT | Medium (60%) | 60% |
 | TLV → Brussels (BRU) | Thu 11 Feb → Mon 15 Feb 2027 | 87 | 869 ILS | 890–1,100 | 🟢 BUY | High (78%) | 37% |
-| TLV → Rome (FCO) | Thu 24 Dec → Mon 28 Dec 2026 | 38 | 448 ILS | 540–1,150 | 🟢 BUY | High (96%) | 19% |
-| TLV → Rome (FCO) | Thu 11 Feb → Mon 15 Feb 2027 | 87 | 398 ILS | 365–850 | 🟢 BUY | High (100%) | 0% |
+| TLV → Rome (FCO) | Thu 24 Dec → Mon 28 Dec 2026 | 38 | 448 ILS | 540–1,150 | 🟢 BUY | High (95%) | 19% |
+| TLV → Rome (FCO) | Thu 11 Feb → Mon 15 Feb 2027 | 87 | 398 ILS | 365–850 | 🟢 BUY | High (95%) | 0% |
 
 **BUY** = unlikely to get meaningfully cheaper before the deadline. **WAIT** = good odds of a lower price; keep watching. **WATCH** = roughly a coin flip; buy if it hits the target price.
 
@@ -20,6 +20,7 @@ Updated 2026-11-16 06:40 UTC.
 Trip: watch +5w · Cheapest airline now: KLM · Data points: 63 · Target price: 1,094 ILS · Likely lowest before deadline: ~1,094 ILS
 
 - 50% chance of a fare at least 5% cheaper before 2026-12-10.
+- Price is in the cheapest quarter of Google's typical range (1,150-1,950).
 - Lower than 40% of the 63 daily prices seen for this trip in the last 90 days.
 - Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.
 
@@ -62,6 +63,7 @@ Trip: watch +12w · Cheapest airline now: LOT · Data points: 63 · Target price
 Trip: watch +5w · Cheapest airline now: ITA · Data points: 63 · Target price: 1,189 ILS · Likely lowest before deadline: ~1,172 ILS
 
 - 60% chance of a fare at least 5% cheaper before 2026-12-10.
+- Price is in the cheapest quarter of Google's typical range (1,150-2,000).
 - Lower than 3% of the 63 daily prices seen for this trip in the last 90 days.
 - Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.
 - Trend over the last 3 weeks: +4.7% per week.
@@ -96,6 +98,7 @@ Trip: watch +5w · Cheapest airline now: Wizz Air · Data points: 63 · Likely l
 Trip: watch +12w · Cheapest airline now: Wizz Air · Data points: 63 · Likely lowest before deadline: ~393 ILS
 
 - 0% chance of a fare at least 5% cheaper before 2027-01-28.
+- Price is in the cheapest quarter of Google's typical range (365-850).
 - Lower than 5% of the 63 daily prices seen for this trip in the last 90 days.
 
 ![price history](charts/TLV-FCO-2027-02-11-2027-02-15.svg)

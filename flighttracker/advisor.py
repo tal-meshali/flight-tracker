@@ -192,6 +192,8 @@ def advise(cfg: Config, trip: Trip, price: float | None, series: dict[dt.date, f
     if lo and price <= lo:
         score += 0.15
         a.reasons.append(f"Price is at or below Google's typical low ({lo:,.0f}).")
+    elif lo and hi and price <= lo + 0.25 * (hi - lo):
+        a.reasons.append(f"Price is in the cheapest quarter of Google's typical range ({lo:,.0f}-{hi:,.0f}).")
     elif hi and price >= hi:
         score -= 0.10
         a.reasons.append(f"Price is above Google's typical range ({lo:,.0f}-{hi:,.0f}).")
@@ -212,7 +214,8 @@ def advise(cfg: Config, trip: Trip, price: float | None, series: dict[dt.date, f
         a.verdict = "WATCH"
 
     quality = min(1.0, 0.35 + a.n_points / 40) * (1.0 if lo else 0.85)
-    a.confidence = round(100 * (0.5 + abs(score - 0.5) * quality))
+    # never claim certainty: airlines can always launch a sale or add flights
+    a.confidence = min(95, round(100 * (0.5 + abs(score - 0.5) * quality)))
 
     a.reasons.insert(0, f"{p_cheaper:.0%} chance of a fare at least {cfg.min_saving_pct:.0f}% cheaper before "
                         f"{(trip.depart - dt.timedelta(days=cfg.buy_deadline_days)).isoformat()}.")
