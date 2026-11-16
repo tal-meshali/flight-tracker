@@ -15,7 +15,7 @@ TODAY = dt.date(2026, 11, 15)
 
 def test_trips_are_generic_and_land_on_weekday():
     trips = CFG.trips(TODAY)
-    assert {t.destination for t in trips} == {"AMS", "BCN", "FCO"}
+    assert {t.destination for t in trips} == {"AMS", "BCN", "FCO", "BRU"}
     assert all(t.depart.weekday() == CFG.depart_weekday for t in trips)
     assert all((t.ret - t.depart).days == CFG.nights for t in trips)
 

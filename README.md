@@ -40,8 +40,8 @@ label = "Barcelona after Pesach"
 By default each destination is checked for a Thursday-to-Monday trip about 5 and 12 weeks out.
 Change `weeks_ahead`, `depart_weekday` and `nights` to suit you.
 
-**Search budget:** each trip check uses 1 SerpApi search. With 3 destinations × 2 trips daily,
-that's about 180 a month. The collector stops at `monthly_search_budget` (240). If you add more
+**Search budget:** each trip check uses 1 SerpApi search. With 4 destinations × 2 trips daily,
+that's about 240 a month. The collector stops at `monthly_search_budget` (248). If you add more
 destinations, reduce `weeks_ahead` to one entry or upgrade the SerpApi plan.
 
 ## Running locally

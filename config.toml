@@ -17,7 +17,7 @@ depart_weekday = "thu"
 nights = 4
 
 # SerpApi free plan = 250 searches/month. The collector stops before going over this.
-monthly_search_budget = 240
+monthly_search_budget = 248
 
 [advisor]
 buy_deadline_days = 14    # after this point prices almost always rise; always buy
@@ -35,6 +35,10 @@ name = "Barcelona"
 [[destinations]]
 code = "FCO"
 name = "Rome"
+
+[[destinations]]
+code = "BRU"
+name = "Brussels"
 
 # Fixed trips you actually plan to take. These are checked on every run in
 # addition to the rolling watch trips. Uncomment and edit:
