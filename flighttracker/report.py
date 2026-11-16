@@ -48,7 +48,7 @@ def write(advice: list[Advice], series: dict[str, dict], out_dir: str | Path, sa
     L = []
     if sample:
         L.append("> ⚠️ **SAMPLE DATA.** These prices are synthetic, generated to demo the tracker. They are not real fares.\n")
-    L.append(f"# Flight price tracker: buy-timing report\n\nUpdated {now:%Y-%m-%d %H:%M} UTC.\n")
+    L.append(f"# Flight price tracker: buy-timing report\n\nUpdated {now:%Y-%m-%d %H:%M} UTC. 📈 [Price trends over time](TRENDS.md)\n")
     L.append("| Trip | Dates | Days out | Price now | Typical range | Advice | Confidence | Chance cheaper later |")
     L.append("|---|---|---:|---:|---|---|---|---:|")
     for a in advice:

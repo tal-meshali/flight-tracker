@@ -13,7 +13,7 @@ import datetime as dt
 import os
 import sys
 
-from . import advisor, report
+from . import advisor, report, trends
 from .config import Trip, load
 from .providers import demo, serpapi, travelpayouts
 from .storage import Store
@@ -74,6 +74,7 @@ def advise(cfg, store: Store, out_dir: str, sample: bool = False, today: dt.date
     notes = [f"\n_SerpApi searches used this month: {used}/{cfg.monthly_search_budget}._"] if not sample else []
     path = report.write(out, series, out_dir, sample=sample, extra_notes=notes)
     print(f"Report written to {path}")
+    print(f"Trends written to {trends.write(cfg, store, out_dir, sample=sample)}")
     for a in out:
         print(f"{a.trip.key:40s} {a.price!s:>8} {a.verdict:7s} conf {a.confidence}%")
     return out

@@ -1,6 +1,6 @@
 # Flight price tracker: buy-timing report
 
-Updated 2026-11-16 06:40 UTC.
+Updated 2026-11-16 06:59 UTC. 📈 [Price trends over time](TRENDS.md)
 
 | Trip | Dates | Days out | Price now | Typical range | Advice | Confidence | Chance cheaper later |
 |---|---|---:|---:|---|---|---|---:|
