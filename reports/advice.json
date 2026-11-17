@@ -4,17 +4,18 @@
     "destination": "Amsterdam",
     "depart": "2026-12-24",
     "return": "2026-12-28",
-    "price": 1138.0,
+    "price": 1066.0,
     "currency": "ILS",
     "verdict": "BUY",
-    "confidence": 68,
-    "p_cheaper_later": 0.474,
-    "target_price": 1081,
-    "best_day": "2026-11-16",
+    "confidence": 79,
+    "p_cheaper_later": 0.36475,
+    "target_price": 1013,
+    "best_day": "2026-11-17",
     "reasons": [
-      "47% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "36% chance of a fare at least 5% cheaper before 2026-12-10.",
       "Price is at or below Google's typical low (1,150).",
-      "Lower than 57% of the 63 daily prices seen for this trip in the last 90 days.",
+      "Lower than 72% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Today's price is below this trip's recent level by 4%, a dip worth taking.",
       "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily."
     ]
   },
@@ -23,17 +24,17 @@
     "destination": "Amsterdam",
     "depart": "2027-02-11",
     "return": "2027-02-15",
-    "price": 1051.0,
+    "price": 1057.0,
     "currency": "ILS",
     "verdict": "BUY",
-    "confidence": 61,
-    "p_cheaper_later": 0.3875,
-    "target_price": 998,
-    "best_day": "2026-11-16",
+    "confidence": 60,
+    "p_cheaper_later": 0.39625,
+    "target_price": 1004,
+    "best_day": "2026-11-17",
     "reasons": [
-      "39% chance of a fare at least 5% cheaper before 2027-01-28.",
-      "Lower than 3% of the 63 daily prices seen for this trip in the last 90 days.",
-      "Trend over the last 3 weeks: +7.4% per week."
+      "40% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Lower than 2% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Trend over the last 3 weeks: +8.3% per week."
     ]
   },
   {
@@ -41,21 +42,21 @@
     "destination": "Barcelona",
     "depart": "2026-12-24",
     "return": "2026-12-28",
-    "price": 1083.0,
+    "price": 1091.0,
     "currency": "ILS",
     "verdict": "WAIT",
     "confidence": 95,
-    "p_cheaper_later": 0.99975,
-    "target_price": 1029,
-    "best_day": "2026-11-17",
+    "p_cheaper_later": 1.0,
+    "target_price": 1036,
+    "best_day": "2026-11-18",
     "reasons": [
       "100% chance of a fare at least 5% cheaper before 2026-12-10.",
       "Price is in the cheapest quarter of Google's typical range (1,050-1,450).",
-      "Lower than 41% of the 63 daily prices seen for this trip in the last 90 days.",
-      "Today's price is above this trip's recent level by 11%, likely a temporary spike.",
+      "Lower than 41% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Today's price is above this trip's recent level by 12%, likely a temporary spike.",
       "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.",
-      "Trend over the last 3 weeks: -2.7% per week.",
-      "Expected cheapest around 2026-11-17; buy right away if it drops to 1,029 or less."
+      "Trend over the last 3 weeks: -2.8% per week.",
+      "Expected cheapest around 2026-11-18; buy right away if it drops to 1,036 or less."
     ]
   },
   {
@@ -63,17 +64,19 @@
     "destination": "Barcelona",
     "depart": "2027-02-11",
     "return": "2027-02-15",
-    "price": 1065.0,
+    "price": 1133.0,
     "currency": "ILS",
-    "verdict": "WATCH",
-    "confidence": 51,
-    "p_cheaper_later": 0.4895,
-    "target_price": 1012,
-    "best_day": "2026-12-24",
+    "verdict": "WAIT",
+    "confidence": 95,
+    "p_cheaper_later": 0.978,
+    "target_price": 1076,
+    "best_day": "2026-11-18",
     "reasons": [
-      "49% chance of a fare at least 5% cheaper before 2027-01-28.",
-      "Lower than 35% of the 63 daily prices seen for this trip in the last 90 days.",
-      "Expected cheapest around 2026-12-24; buy right away if it drops to 1,012 or less."
+      "98% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Price is above Google's typical range (890-1,100).",
+      "Lower than 2% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Today's price is above this trip's recent level by 6%, likely a temporary spike.",
+      "Expected cheapest around 2026-11-18; buy right away if it drops to 1,076 or less."
     ]
   },
   {
@@ -81,19 +84,19 @@
     "destination": "Brussels",
     "depart": "2026-12-24",
     "return": "2026-12-28",
-    "price": 1156.0,
+    "price": 996.0,
     "currency": "ILS",
-    "verdict": "WATCH",
-    "confidence": 57,
-    "p_cheaper_later": 0.43425,
-    "target_price": 1098,
-    "best_day": "2026-11-16",
+    "verdict": "BUY",
+    "confidence": 87,
+    "p_cheaper_later": 0.2765,
+    "target_price": 946,
+    "best_day": "2026-11-17",
     "reasons": [
-      "43% chance of a fare at least 5% cheaper before 2026-12-10.",
-      "Price is in the cheapest quarter of Google's typical range (1,150-2,000).",
-      "Lower than 8% of the 63 daily prices seen for this trip in the last 90 days.",
-      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily.",
-      "Trend over the last 3 weeks: +3.4% per week."
+      "28% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Price is at or below Google's typical low (1,200).",
+      "Lower than 67% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Today's price is below this trip's recent level by 10%, a dip worth taking.",
+      "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily."
     ]
   },
   {
@@ -101,18 +104,18 @@
     "destination": "Brussels",
     "depart": "2027-02-11",
     "return": "2027-02-15",
-    "price": 869.0,
+    "price": 874.0,
     "currency": "ILS",
     "verdict": "BUY",
-    "confidence": 78,
-    "p_cheaper_later": 0.3685,
-    "target_price": 826,
-    "best_day": "2026-11-16",
+    "confidence": 77,
+    "p_cheaper_later": 0.38025,
+    "target_price": 830,
+    "best_day": "2026-11-17",
     "reasons": [
-      "37% chance of a fare at least 5% cheaper before 2027-01-28.",
-      "Price is at or below Google's typical low (890).",
-      "Lower than 6% of the 63 daily prices seen for this trip in the last 90 days.",
-      "Trend over the last 3 weeks: +9.5% per week."
+      "38% chance of a fare at least 5% cheaper before 2027-01-28.",
+      "Price is at or below Google's typical low (900).",
+      "Lower than 2% of the 64 daily prices seen for this trip in the last 90 days.",
+      "Trend over the last 3 weeks: +10.7% per week."
     ]
   },
   {
@@ -120,17 +123,17 @@
     "destination": "Rome",
     "depart": "2026-12-24",
     "return": "2026-12-28",
-    "price": 448.0,
+    "price": 450.0,
     "currency": "ILS",
     "verdict": "BUY",
-    "confidence": 95,
-    "p_cheaper_later": 0.19375,
-    "target_price": 426,
-    "best_day": "2026-11-16",
+    "confidence": 88,
+    "p_cheaper_later": 0.26575,
+    "target_price": 428,
+    "best_day": "2026-11-18",
     "reasons": [
-      "19% chance of a fare at least 5% cheaper before 2026-12-10.",
-      "Price is at or below Google's typical low (540).",
-      "Lower than 6% of the 63 daily prices seen for this trip in the last 90 days.",
+      "27% chance of a fare at least 5% cheaper before 2026-12-10.",
+      "Price is at or below Google's typical low (530).",
+      "Lower than 6% of the 64 daily prices seen for this trip in the last 90 days.",
       "Departure falls in a peak period (Christmas / New Year in Europe); these fares usually rise steadily."
     ]
   },
@@ -139,17 +142,17 @@
     "destination": "Rome",
     "depart": "2027-02-11",
     "return": "2027-02-15",
-    "price": 398.0,
+    "price": 400.0,
     "currency": "ILS",
     "verdict": "BUY",
     "confidence": 95,
-    "p_cheaper_later": 0.00375,
-    "target_price": 378,
-    "best_day": "2026-11-17",
+    "p_cheaper_later": 0.004,
+    "target_price": 380,
+    "best_day": "2026-11-18",
     "reasons": [
       "0% chance of a fare at least 5% cheaper before 2027-01-28.",
-      "Price is in the cheapest quarter of Google's typical range (365-850).",
-      "Lower than 5% of the 63 daily prices seen for this trip in the last 90 days."
+      "Price is in the cheapest quarter of Google's typical range (365-860).",
+      "Lower than 2% of the 64 daily prices seen for this trip in the last 90 days."
     ]
   }
 ]
