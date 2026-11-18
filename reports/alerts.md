@@ -1,8 +1,7 @@
 Good time to buy:
 
-- TLV → Amsterdam, 24 Dec–28 Dec 2026: 1,066 ILS (High confidence, 79%)
-- TLV → Amsterdam, 11 Feb–15 Feb 2027: 1,057 ILS (Medium confidence, 60%)
-- TLV → Brussels, 24 Dec–28 Dec 2026: 996 ILS (High confidence, 87%)
-- TLV → Brussels, 11 Feb–15 Feb 2027: 874 ILS (High confidence, 77%)
-- TLV → Rome, 24 Dec–28 Dec 2026: 450 ILS (High confidence, 88%)
-- TLV → Rome, 11 Feb–15 Feb 2027: 400 ILS (High confidence, 95%)
+- TLV → Amsterdam, 24 Dec–28 Dec 2026: 1,069 ILS (High confidence, 76%)
+- TLV → Amsterdam, 11 Feb–15 Feb 2027: 1,063 ILS (Medium confidence, 61%)
+- TLV → Brussels, 11 Feb–15 Feb 2027: 877 ILS (High confidence, 78%)
+- TLV → Rome, 24 Dec–28 Dec 2026: 437 ILS (High confidence, 95%)
+- TLV → Rome, 11 Feb–15 Feb 2027: 401 ILS (High confidence, 95%)
